@@ -11,7 +11,7 @@ module Sprockets
     #
     # The compressor object must respond to `compress` or `compile`.
     def js_compressor=(compressor)
-      expire_index!
+#       expire_index!
       unregister_bundle_processor 'application/javascript', :js_compressor
       return unless compressor
 
