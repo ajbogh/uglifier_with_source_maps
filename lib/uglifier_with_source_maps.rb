@@ -1,7 +1,7 @@
 require 'sprockets/railtie'
 require 'uglifier'
 require "uglifier_with_source_maps/version"
-require "uglifier_with_source_maps/compressor"
+# require "uglifier_with_source_maps/compressor"
 
 module Sprockets
   # Processing
