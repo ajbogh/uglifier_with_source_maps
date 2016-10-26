@@ -12,7 +12,7 @@ require 'sprockets'
 Dir[File.expand_path('../uglifier_with_source_maps/sprockets/*.rb', __FILE__)].each do |f|
   require f
 end
-require 'uglifier_with_source_maps/actionpack/lib/sprockets/compressors'
+# require 'uglifier_with_source_maps/actionpack/lib/sprockets/compressors'
 
 require 'uglifier_with_source_maps/railtie'
 
